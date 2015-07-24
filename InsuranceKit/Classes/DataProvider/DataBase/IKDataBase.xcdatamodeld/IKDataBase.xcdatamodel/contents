@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14B25" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Hospital" representedClassName="IKHospitalCDSO" syncable="YES">
+        <attribute name="providerID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="providerName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="members" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Member" inverseName="hospital" inverseEntity="Member" syncable="YES"/>
+        <relationship name="visits" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Visit" inverseName="hospital" inverseEntity="Visit" syncable="YES"/>
+    </entity>
+    <entity name="Member" representedClassName="IKMemberCDSO" syncable="YES">
+        <attribute name="depID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detail" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="memberID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="hospital" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Hospital" inverseName="members" inverseEntity="Hospital" syncable="YES"/>
+        <relationship name="visits" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Visit" inverseName="member" inverseEntity="Visit" syncable="YES"/>
+    </entity>
+    <entity name="Photo" representedClassName="IKPhotoCDSO" syncable="YES">
+        <attribute name="createTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="modifyTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="seqID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uploaded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="visit" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Visit" inverseName="photos" inverseEntity="Visit" syncable="YES"/>
+    </entity>
+    <entity name="Visit" representedClassName="IKVisitCDSO" syncable="YES">
+        <attribute name="actualCopay" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="applyForTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="authInfo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="beginDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="claimEditHistory" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="createTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dentalType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="depID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detail" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="invisible" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="memberID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modifyTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="paymentEdit" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="paymentsType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="paymentTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="providerID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="registrationTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="serviceType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="shouldPay" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="temp" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="totalCopay" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="uploaded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="uploadTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="visitExpenses" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="visitID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="visitType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="hospital" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Hospital" inverseName="visits" inverseEntity="Hospital" syncable="YES"/>
+        <relationship name="member" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Member" inverseName="visits" inverseEntity="Member" syncable="YES"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Photo" inverseName="visit" inverseEntity="Photo" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Hospital" positionX="18" positionY="-274" width="128" height="103"/>
+        <element name="Member" positionX="394" positionY="-304" width="128" height="133"/>
+        <element name="Photo" positionX="403" positionY="-99" width="128" height="135"/>
+        <element name="Visit" positionX="-189" positionY="-279" width="128" height="510"/>
+    </elements>
+</model>

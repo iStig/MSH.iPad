@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>time</key>
+		<string>2013-11-06</string>
+		<key>applyno</key>
+		<string>3323341241123</string>
+		<key>status</key>
+		<string>批准</string>
+		<key>plan</key>
+		<string>理疗</string>
+		<key>mail</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>2013-11-05</string>
+		<key>applyno</key>
+		<string>6845845467</string>
+		<key>status</key>
+		<string>处理中</string>
+		<key>plan</key>
+		<string>化学治疗</string>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>2013-11-04</string>
+		<key>applyno</key>
+		<string>2245099022</string>
+		<key>status</key>
+		<string>拒绝</string>
+		<key>plan</key>
+		<string>理疗</string>
+		<key>mail</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>2013-11-03</string>
+		<key>applyno</key>
+		<string>99887788777</string>
+		<key>status</key>
+		<string>批准</string>
+		<key>plan</key>
+		<string>理疗</string>
+	</dict>
+</array>
+</plist>

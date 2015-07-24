@@ -1,0 +1,315 @@
+/* 
+  IKLanguage.strings
+  InsuranceKit
+
+  Created by iStig on 14/10/22.
+  Copyright (c) 2014年 Stan Wu. All rights reserved.
+*/
+
+//登录
+"kSignin" = "Sign in";
+"KInterNetwork" = "Internal Network";
+"KInternetNetwork" = "Internet Network";
+"KChoosenetwork"  = "Choose your network";
+"kSigning"  = "Sign in ...";
+"kAccount"  = "Account";
+"kPassword"  = "Password";
+
+//就诊客户
+"kPatient"  = "Patient";
+"kSerch"  = "Search";
+"kMale"  = "Male";
+"kFemale"  = "Female";
+"kSpecifyVisitTime"  = "Visit Date:";
+"kInputCardNoOrMemberID"  = "Enter card number or member ID or birthday";
+"kGettinginformation"  = "Getting information…";
+"kBirthday"  = "Date of birth";
+"kNationality"  = "Nationality";
+"kCertificateNumber"  = "Cert Number";
+"kPhotoID"  = "Photo ID";
+"kTakePictureOfPhotoID"  = "Take a picture of Photo ID";
+"kLoadPhoto" = "uploading photos..";
+"kBack"  = "Back";
+"kNext"  = "Next";
+"kDone"  = "Done";
+"kAllPatients"  = "All patients";
+"kViewLarge" = "Enlarge";
+
+//保险信息查询
+"kPolicy"  = "Policy";
+"kPolicyType"  = "Policy Type";
+"kStartDate"  = "Effective";
+"kPolicyNumber"  = "Policy Number";
+"kEnddate"  = "Expire";
+"kDeductible"  = "Deductible";
+"kwelfareType" = "welfare Type";
+"kguaranteeFee" = "guarantee Fee";
+"kguaranteeInhospital" = "guarantee days";
+"kdisCountFee" = "discount";
+"Kexpectedtime" = "expected	time";
+"kOutpatientCo-pay"  = "Outpatient Co-pay";
+"kOutpatientlimitation"  = "Outpatient limitation";
+"kInpatientCo-pay"  = "Inpatient Co-pay";
+"kDirectbilling"  = "Direct billing";
+"kNondirectbilling"  = "Non DB";
+"kPolicynotes"  = "Policy notes";
+"kBenefit"  = "Benefit";
+"kHealth" = "Health";
+"kClickshow"  = "Click and show";
+"kWelfare"  = "Benefit";
+"kLimitation"  = "Limitation";
+"kType"  = "Type";
+"kBalance"  = "Balance";
+"kNotes"  = "Notes";
+
+//收取自付额
+"kCalculateCo-payment"  = "Calculate Co-payment";
+//"kOutpatient"  = "Outpatient";
+"kInpatient"  = "Inpatient";
+
+"k_Outpatient"  = "OP";
+"k_Inpatient"  = "IP";
+"kDental"  = "Dental";
+"kVision"  = "Vision";
+"kWellness"  = "Wellness";
+"kTotalAmount"  = "Total Amount";
+"kAmountDiscount"  = "Amount with discount";
+"kDueCo-payment"  = "Due Co-payment";
+"kActualCo-payment"  = "Actual Co-payment";
+"kProviderco-pay"  = "Provider co-pay";
+"kPolicyco-pay"  = "Policy co-pay";
+"kDental-pay" = "Please click on the 'Dental' option to choose Co-payment";
+"kPhotoLoadCount" = "Image can not over 10 pcs";
+"kNeedMR"  = "Need MR";
+"kExceedOPlimitation"  = "Exceed OP limitation";
+"kDentalCo-pay"  = "Dental Co-pay";
+"kBasic"  = "Basic";
+"kPreventative"  = "Preventative";
+"kMajor"  = "Major";
+"kOrthodontics"  = "Orthodontics";
+"kSave"  = "Save";
+"kCommit"  = "Commit";
+"kPleaseinputtotalamountactualco-pay"  = "Please input total amount & actual co-pay";
+"kOk"  = "Ok";
+"kSaved"  = "Saved";
+"kClaim"  = "Claim";
+"kClaimApply" = "Claim Apply";
+"kClaimApplication"  = "Claim Application";
+"kSubmitclaim"  = "Submit claim?";
+"kProcessing"  = "Processing";
+"kApproved"  = "Approved";
+"kDenied"  = "Denied";
+"kProvidername"  = "Provider name";
+"kPatientName"  = "Patient Name";
+"kTelephone"  = "Telephone";
+"kAddress"  = "Address";
+"kEmail"  = "Email";
+"kShootingRecords"  = "Medical Record";
+"kShootingPayDetail"  = "Invoice/Receipt";
+"kShootingOther"  = "Other";
+"kShootingFinished"  = "";
+"kAddPhotoPrompt" = "理赔处理中和已赔付不允许再添加照片";
+"kTreatmentfrom"  = "Service From";
+"kTo"  = "*To";
+"kTreatment"  = "*Service Type";
+"kPayment"  = "*Payment";
+"kMedicalrecordinvoice"  = "Medical record & invoice";
+"kClicktoaddMRinvoice"  = "Click to add MR & invoice";
+"kPcs" = "pcs";
+"kAddphoto"  = "Add a photo";
+"kSelectphotofrompersonalalbum"  = "Select a photo from personal album";
+"kSelectphotofromIPADalbum"  = "Select a photo from IPAD album";
+"kClaimStatus"  = "Status";
+"kNew"  = "new";
+
+//申请授权
+"kPreAuthorization"  = "Pre-Authorization";
+"kPreAuthapply"  = "Pre-Auth apply";
+"kAudit"  = "Audit";
+"kDoctor"  = "Doctor";
+"kBProviderContact"  = "Provider Contact";
+"kProviderTel"  = "Provider Tel";
+"kProviderFax"  = "Provider Fax";
+"kProviderEmail"  = "Provider Email";
+"kMedicalrecord"  = "Pictures";
+"kPatientName"  = "Patient Name";
+"kPatientTel"  = "Patient Tel";
+"kDiagnosis"  = "Diagnosis";
+"kMedicalhistory"  = "Medical history";
+"kExpecteddateofservice"  = "Expected Date";
+"kEstimatedCost"  = "Estimated Cost";
+"kPleaseinputtotalamount"  = "total amount";
+"kExpectedProcedure"  = "Expected Procedure";
+"kOutpatientExam/Surgery"  = "Outpatient/Surgery ";
+"kExamItem"  = "Exam Item";
+"kitemsmaximum"  = "3 items maximum";
+"koptions"  = "1-3 options";
+"kNameofOperation"  = "Name of Operation";
+"kOthers"  = "Others";
+"kInpatientTreatmentSurgery"  = "Inpatient/Surgery";
+"kRequestLengthofStay "  = "Request Length of Stay ";
+"kDateofOperation"  = "Date of Operation";
+"kNameofSurgeon"  = "Name of Surgeon";
+"kSurgeonfee"  = "Surgeon fee";
+"kAssistantSurgeonfee"  = "AssistantSurgeon fee";
+"kAnaesthesiafee"  = "Anaesthesia fee";
+"kOperationRoomfee"  = "Operation Room fee";
+"kMaterialsfee"  = "Materials fee";
+"kRoomtype"  = "Room type";
+"kDouble"  = "Double";
+"kSingle"  = "Single";
+"kStandard"  = "Standard";
+"kDelivery"  = "Delivery";
+"kRequestLengthofStay"  = "Request Length of Stay";
+"kDeliverytype"  = "Delivery Type";
+"kNormalDelivery "  = "Normal Delivery ";
+"kC-section"  = "C-section";
+"kIndicationofC-section"  = "Indication of C-section";
+"kDurableMedicalEquipment"  = "Durable Medical Equipment ";
+"kNameofEquipment"  = "Name of Equipment";
+"kBrandandproductmodel"  = "Brand and product model";
+"kExpectedDateofRentorPurchase"  = "Expected Date of Rent or Purchase";
+"kChemotherapy"  = "Chemotherapy";
+"kServiceType"  = "Service Type";
+"kOutpatient"  = "Outpatient";
+"kDaycase"  = "Day case";
+"kExpectedLengthofStayPerRound"  = "Expected Length of Stay Per Round";
+"kTotalChemotherapyCourse"  = "Total Chemotherapy Course";
+"kCurrentlyincourse"  = "Currently in course";
+"kChemotherapyPlan"  = "Chemotherapy Plan";
+"kMedicine"  = "Medicine";
+"kDosage"  = "Dosage";
+"ktimePerweek"  = " time/  Per week";
+"kRadiotherapy"  = "Radiotherapy";
+"kTotalRadiotherapyCourse"  = "Total Radiotherapy Course";
+"kRadiotherapyPlan"  = "Radiotherapy Plan";
+"kTherapy"  = "Therapy";
+"kTherapyname"  = "Therapy name";
+"kTotalTherapyCourse"  = "Total Therapy Course";
+"kFinishedcourse"  = "Finished course";
+"kExpectedcourse"  = "Expected course";
+"kTherapyplan"  = "Therapy plan";
+"kplan1"  = "plan 1";
+"kplan2"  = "plan 2";
+"kDetails"  = "Details";
+"ktime/  Per week"  = "time/  Per week";
+"ktime/  every"  = "time/  every";
+"ktimes"  = "time";
+"ktotal"  = "total";
+"kDay"  = "day";
+"kweek"  = "week";
+"kupdate"  = "Update";
+"kDelete"  = "Delete";
+"kDeletethepre-authorization"  = "Delete the pre-authorization?";
+"kCancel"  = "Cancel";
+"kSure"  = "Sure";
+"kCanceled"  = "Canceled";
+
+"kDeleting"  = "Deleting…";
+"kPleaseinputEstimatedCost"  = "Please input Estimated Cost";
+"kPleaseinputthecolumnnecessary"  = "Please input the column necessary";
+"kSubmiting"  = "Submiting...";
+"kSubmitingClaim"  = "Submiting...";
+"kFail"  = "Fail";
+"kSuccess"  = "Success";
+"kSuccessClaim" = "Success";
+
+//综合查询
+"kSearch"  = "Search";
+"kTreatmentClients"  = "Patient";
+"ktRefresh"  = "Refresh…";
+"kpRefresh"  = "Refresh…";
+"kcRefresh"  = "Refresh…";
+"kPre-authorization"  = "Pre-authorization";
+"kClaimApplication"  = "Claim Application";
+"kLeftNoSubmitStr" = "Uncommitted";
+"kLeftSubmitStr" = "Committed";
+"kBatchSubmission" = "Commit";
+"kStartTime" = "Start Time";
+"kEndTime" = "End Time";
+
+//就诊记录查询
+"kTreatmentClients"  = "Patient";
+"kTreatmentDate"  = "Treatment Date";
+"kClient"  = "Client";
+"kClientOrName"  = "Member ID/Name";
+"kTreatmentType"  = "Service Type";
+"kTotalamount"  = "Total amount";
+"kAmountwithdiscount"  = "Discounted Amount";
+"kCo-pay"  = "Co-pay";
+"kClaimdetail"  = "Claim Detail";
+"kClaimapply"  = "Claim Apply";
+
+//事先授权查询
+"kPre-Authorization"  = "Pre-Authorization";
+"kApplyDate"  = "Apply Date";
+"kpCase"  = "Case";
+"kStatus"  = "Status";
+"kServiceCase"  = "Service Case";
+"kGuaranteeletter"  = "Guarantee letter";
+"kClientNameCaseNo"  = "Client Name/Case No";
+
+//理赔申请查询
+"kClaims"  = "Claims";
+"kcDate"  = "Case";
+
+//关于
+"kAbout"  = "About";
+"kContactinformation"  = "Contact information";
+"kContact"  = "Contact";
+"kaboutEmail"  = "Email";
+"kMSHCHINAHotline"  = "MSH CHINA Hotline";
+"kWeb"  = "Web";
+"kaboutDirectbilling"  = "Direct billing";
+"kAboutMSHChina"  = "About MSH China";
+"kNews"  = "News";
+"kRefreshnews"  = "Refresh…";
+"kPotentialclient"  = "Potential client";
+"kCo-paysummary"  = "Co-pay summary";
+"kaboutTotalAmount"  = "Total Amount";
+"kaboutCo-pay"  = "Co-pay";
+"kServiceDate"  = "Service Date";
+"kSuggestionfromprovider"  = "Suggestion from provider";
+"kHowdoyouthinkofourrepresentativeworkingoverall"  = "How do you think of our representative working overall?";
+"kIsourrepresentativeworkingtimesatisfied"  = "Is our representative working time satisfied?";
+"kCanourrepresentativeassisthospital"  = "Can our representative assist hospital?";
+"kCanourrepresentativeanswerthequestionfromhospitalorclient"  = "Can our representative answer the question from hospital or client?";
+"kHowaboutourrepresentativeserviceattitude"  = "How about our representative service attitude?";
+"kDoyouhaveanysuggestionaboutourworking"  = "Do you have any suggestion about our working?";
+"kYourName"  = "Your Name";
+"kContactEmail"  = "Contact No./E-mail";
+"kExcellent"  = "Excellent";
+"kGood"  = "Good";
+"kNormal"  = "Normal";
+"kBad"  = "Bad";
+"kSuggestionfromClient"  = "Suggestion from Client";
+"kIsourrepresentativeservicefriendly"  = "Is our representative service friendly?";
+"kCanourrepresentativeansweryourquestiontimely"  = "Can our representative answer your question timely?";
+"kCanourrepresentativehelpyousolvemedicalproblem"  = "Can our representative help you solve medical problem?";
+"kDoyouthinkwhatweneedtoimprove"  = "Do you think what we need to improve?";
+"kTimeoutpleasesigninagain"  = "Timeout,please sign in again.";
+"kNetworkFailed" = "Network timeout or not available";
+"kApply" = "Sumbit";
+
+//二次添加
+
+"k_Amount" = "amount";
+"k_days" = "days";
+"k_visits" = "visits";
+"k_NeedMR" = "Need MR";
+"k_UpdatePassword" = "Update Password";
+"k_Memo" = "Memo";
+"k_Oldpassword" = "Old password";
+"k_Newpassword" = "New password";
+"k_Confirmnewpassword" = "Confirm new password";
+"k_Upgrade" = "Upgrade";
+"k_Thenewestversion" = "Upgrade To";
+"k_Thecurrentversion" = "Current Version";
+"k_DownloadandSetup" = "Download & Install";
+"k_paymentviewNote"  = "This co-pay is not final result, just for your reference.";
+"kMore" = "More";
+"kEnterEmailAddress" = "Please Enter Email Address";
+"kSend" = "Send";
+"kGettingLetter" = "Getting Back Letter";
+"kCameraMissed" = "please do this on a device with a camera";
+"kAddedAuthTask" = "Authorization Saved To Loacal Cache";

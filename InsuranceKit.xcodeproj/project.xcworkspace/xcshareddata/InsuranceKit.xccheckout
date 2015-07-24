@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5D61AA58-3CDB-4C71-87A5-AEDDCCBF8B25</string>
+	<key>IDESourceControlProjectName</key>
+	<string>InsuranceKit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>cfd11ab3-1c12-4d9f-936b-a2e8848ad77a++2133</key>
+		<string>https://192.168.1.20:1216/svn/NewProjects/trunk/Msh.iPad</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk/InsuranceKit/InsuranceKit.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>cfd11ab3-1c12-4d9f-936b-a2e8848ad77a++2133</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>cfd11ab3-1c12-4d9f-936b-a2e8848ad77a++2133</key>
+		<string>https://192.168.1.20:1216/svn/NewProjects</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.1.20:1216/svn/NewProjects/trunk/Msh.iPad/trunk/InsuranceKit/InsuranceKit.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>cfd11ab3-1c12-4d9f-936b-a2e8848ad77a++2133</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>cfd11ab3-1c12-4d9f-936b-a2e8848ad77a++2133</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Msh.iPad</string>
+		</dict>
+	</array>
+</dict>
+</plist>
